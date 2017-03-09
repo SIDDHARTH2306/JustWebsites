@@ -1,0 +1,111 @@
+#team{
+    list-style-image: url('square.png');
+
+    float: none;
+    background-color: inherit;
+}
+#team li{
+    float: none;
+    margin-bottom: 10px;
+}
+ul{
+    list-style-type:none;
+    margin:5;
+    padding:3;
+    overflow:hidden;
+    background-color: 	#FFFF00;
+
+}
+li{
+    float:left;
+}
+li a{
+    font-family: "Calibri";
+    display:block;
+    color:black;
+    text-align:center;
+    padding:15px 100px;
+    text-decoration:blink;
+    font-size: 20px;
+    /*text-shadow: 2px 2px #006400;*/
+    text-transform: uppercase;
+}
+.header_image{
+    height: 30%;
+    width: 100%;
+    z-index: -1;
+}
+.active{
+    background-color: orangered;
+}
+.content{
+    font-family: "Calibri ";
+    align-items: center;
+    width: 70%;
+
+    margin-left: 25%;
+    margin-right: 15%;
+
+}
+body{
+    background-color: antiquewhite;
+}
+.content-image-right img{
+    width: 100%;
+    height: 100%;
+}
+.content-image-right{
+    margin-bottom: -700px;
+    height: 700px;
+    width: 22%;
+}
+
+.content-image-left img{
+    width: 100%;
+    height: 100%;
+}
+.content-image-left{
+    margin-left: 75%;
+    margin-bottom: -700px;
+    height: 700px;
+    width: 22%;
+}
+h1{
+    font-family: "Courier New";
+    font-size: 32px;
+}
+.content-para{
+
+    font-family: "Lucida Grande";
+    align-items: center;
+    width: 70%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+.content_heading{
+    padding: 5px;
+    width: 70%;
+    text-align: center;
+    background-color: transparent;
+    font-size: 32px;
+    font-family: Lucida Grande;
+    margin-left: -2%;
+
+}
+li a:hover{
+    background-color: #ffbf00;
+    color:white;
+    width: 200px;
+
+}
+.special-item{
+    font-family: "Franklin Gothic Medium";
+    padding: 4%;
+    height:300px;
+    width:80%;
+    margin-left: 5%;
+    margin-right: 10%;
+    border-radius: 30px 30px 30px 30px;
+    background-color: Goldenrod;
+
+}
